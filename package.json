@@ -1,0 +1,29 @@
+{
+  "name": "19471a05d8-achyutsaikrishnadhulipudi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhulipudiAchyutSaiKrishna/19471A05D8-AchyutSaiKrishnaDhulipudi.git"
+  },
+  "author": "AchyutSaiKrishnaDhulipudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DhulipudiAchyutSaiKrishna/19471A05D8-AchyutSaiKrishnaDhulipudi/issues"
+  },
+  "homepage": "https://github.com/DhulipudiAchyutSaiKrishna/19471A05D8-AchyutSaiKrishnaDhulipudi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "valid-url": "^1.0.9"
+  }
+}
