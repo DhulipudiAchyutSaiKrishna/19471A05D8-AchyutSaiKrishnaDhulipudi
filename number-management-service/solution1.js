@@ -21,14 +21,19 @@ router.get('/', async (req, res) => {
         console.log('valid ' + query);
     });
 
-    const uniqueArray = await [...new Set(numberArrays)];
-    console.log(uniqueArray);
+    // const uniqueArray = await [...new Set(numberArrays)];
+    let uniqueArray  = Array.prototype.concat.apply([], numberArrays);
+    uniqueArray = [...new Set(uniqueArray)];
+    
+    console.log('uniqueArray: ', uniqueArray);
 
     
 
-    console.log(numberArrays);
+    console.log('numberArrays: ', numberArrays);
 
-    
+    uniqueArray = uniqueArray.toString().split(',').map(Number);
+
+    uniqueArray.sort((a, b) => a - b);
 
     res.send(uniqueArray);
 });
