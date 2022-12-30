@@ -30,7 +30,7 @@ router.get('/', async (req, res) => {
 
     
 
-    res.send('Solution1 is working');
+    res.send(uniqueArray);
 });
 
 
